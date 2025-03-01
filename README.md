@@ -1,4 +1,11 @@
 # Codigo del programa
+
+Importatnte Leer!
+
+Tienes que crear Un directorio en la raiz C:
+Llamado "LaboratorioAvengers"
+o sino el codigo te dice que el directorio no existe como respuesta a esto
+
 EL codigo del programa se trata manipular y crear archivos planos
 
 el Programa esta hecho para que funcione en la raiz C:\
