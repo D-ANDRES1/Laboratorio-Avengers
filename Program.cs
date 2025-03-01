@@ -169,13 +169,16 @@ class ControladorDeArchivos // Esta clase contiene todas las funciones que son r
     // Aqui esta la funcion De Mover Archivo
     public static void MoverArchivo()
     {
+        Console.Clear();
+        Console.WriteLine("***** Mover Archivos *****");
+
         Console.WriteLine("\nTe mostrare una lista de los archivos en el directorio");
         ListarArchivos();
 
-        Console.WriteLine("\nIngrese la Ruta del archivo ORIGINAL que quiera copiar");
+        Console.WriteLine("\nIngrese la Ruta del archivo ORIGINAL que quiera Mover");
         string? ArchivoACopiar = Console.ReadLine();
 
-        Console.WriteLine("\nIngrese la Ruta de DESTINO del archivo que quiera copiar");
+        Console.WriteLine("\nIngrese la Ruta de DESTINO del archivo que quiera Mover");
         string? ArchivoDestino = Console.ReadLine();
         try
         {
